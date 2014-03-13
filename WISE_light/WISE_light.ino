@@ -23,7 +23,7 @@ void loop() {
   strip.setPixelColor(1, 0, 0, 0);
   strip.setPixelColor(0, 0, 0, 0);
   strip.show(); 
-  //wait for 1/10 second
+  //wait for pause milliseconds
   delay(pause);
   
   
@@ -111,6 +111,7 @@ void loop() {
   strip.setPixelColor(0, 0, 0, 0);
   strip.show();
   delay(pause);
+  
   //set rgb values for ninth column - all off to give you a gap between images
   strip.setPixelColor(7, 0, 0, 0);
   strip.setPixelColor(6, 0, 0, 0);
