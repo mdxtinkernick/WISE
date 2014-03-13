@@ -111,7 +111,7 @@ void loop() {
   strip.setPixelColor(0, 0, 0, 0);
   strip.show();
   delay(pause);
-  //set rgb values for eighth column
+  //set rgb values for ninth column - all off to give you a gap between images
   strip.setPixelColor(7, 0, 0, 0);
   strip.setPixelColor(6, 0, 0, 0);
   strip.setPixelColor(5, 0, 0, 0);
